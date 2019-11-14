@@ -1,0 +1,37 @@
+plugins {
+    id 'org.asciidoctor.jvm.convert' version '3.0.0-alpha.3'
+    id 'org.asciidoctor.jvm.pdf' version '3.0.0-alpha.3'
+}
+
+repositories {
+	jcenter();
+    mavenCentral()
+}
+
+asciidoctorj {
+    modules {
+       diagram.version '1.5.18'
+    }
+}
+
+asciidoctor {
+  sourceDir  file('docs')
+  sources {
+    include 'documentation.adoc','syntax.adoc'
+  }
+  outputDir  file('build/docs')
+  attributes  'source-highlighter': 'coderay',
+              'coderay-linenums-mode': 'table',
+              'sourcedir': "${projectDir}/src/main/java",
+              'targeted-env': 'DEVOXX Sample'
+}
+
+asciidoctorPdf {
+  sourceDir 'docs'
+
+  asciidoctorj {
+    attributes 'source-highlighter' : 'coderay',
+               'sourcedir': "${projectDir}/src/main/java",
+               'targeted-env': 'DEVOXX PDF Sample'
+  }
+}

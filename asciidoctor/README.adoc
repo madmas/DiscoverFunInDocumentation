@@ -1,0 +1,8 @@
+= Asciidoctor Sample
+
+Please note that this sample need to be run with *Gradle 5.0* or prior due to https://github.com/asciidoctor/asciidoctor-gradle-plugin/issues/424[this bug] that will be fixed with the next release.
+
+[NOTE]
+Note that for the diagrams to be rendered, you need to have https://graphviz.org/[GraphViz] and https://github.com/mermaidjs/mermaid.cli[Mermaid.cli] installed. +
+For the latter one, I als needed to add an alias so the AcsiiDoctor plugin would find the mermaid executable (alias mermaid=mmdc). +
+FOr an CI build, I'd recommend to encapsulate these requirements in a container and/or self-contained build.
