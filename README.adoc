@@ -4,7 +4,7 @@ This repository contains the slides and the sample for Asciidoctor shown during 
 
 There is also an earlier version from the talk at https://github.com/madmas/DiscoverFunInDocumentation/tree/DevoxxMA2019[Devoxx Morocco 2019].
 
-For the https://doctoolchain.github.io/docToolchain/[docToolchain] example there is no code included as everything I showed was from the standard repository. Please have a look at their documentation and feel free to contact me if you encounter any questions!
+For the https://doctoolchain.github.io/docToolchain/[docToolchain] and https://antora.org/[Antora] examples there is no code included as everything I showed was from the standard repository. Please have a look at their documentation and feel free to contact me if you encounter any questions!
 
 == Contact details
 
