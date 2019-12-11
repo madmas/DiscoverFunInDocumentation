@@ -23,7 +23,7 @@ asciidoctor {
   attributes  'source-highlighter': 'coderay',
               'coderay-linenums-mode': 'table',
               'sourcedir': "${projectDir}/src/main/java",
-              'targeted-env': 'DEVOXX Sample'
+              'targeted-env': 'IT Tage Beispiel'
 }
 
 asciidoctorPdf {
@@ -32,6 +32,6 @@ asciidoctorPdf {
   asciidoctorj {
     attributes 'source-highlighter' : 'coderay',
                'sourcedir': "${projectDir}/src/main/java",
-               'targeted-env': 'DEVOXX PDF Sample'
+               'targeted-env': 'IT Tage PDF Sample'
   }
 }

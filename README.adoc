@@ -1,10 +1,12 @@
 = Fun in Documentation - Sample & Slides
 
-This repository contains the slides and the sample for Asciidoctor shown during the talk https://cfp.devoxx.ma/2019/talk/KZK-9624/Discover_Fun_in_Documentation["Discover Fun in Documentation"] at https://www.devoxx.ma/[DevoxxMA 2019].
+This repository contains the slides and the sample for Asciidoctor shown during the talk https://www.ittage.informatik-aktuell.de/programm/2019/dokumentation-als-vergnuegen/["Dokumentation als Vergnügen"] at https://www.ittage.informatik-aktuell.de/[IT Tage 2019]. 
+
+There is also an earlier version from the talk at https://github.com/madmas/DiscoverFunInDocumentation/tree/DevoxxMA2019[Devoxx Morocco 2019].
 
 For the https://doctoolchain.github.io/docToolchain/[docToolchain] example there is no code included as everything I showed was from the standard repository. Please have a look at their documentation and feel free to contact me if you encounter any questions!
 
-My contact details:
+== Contact details
 
 Markus Schlichting <markus.schlichting@karakun.com>
 
