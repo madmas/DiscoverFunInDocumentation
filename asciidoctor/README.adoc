@@ -4,5 +4,5 @@ Please note that this sample need to be run with *Gradle 5.0* or prior due to ht
 
 [NOTE]
 Note that for the diagrams to be rendered, you need to have https://graphviz.org/[GraphViz] and https://github.com/mermaidjs/mermaid.cli[Mermaid.cli] installed. +
-For the latter one, I als needed to add an alias so the AcsiiDoctor plugin would find the mermaid executable (alias mermaid=mmdc). +
-FOr an CI build, I'd recommend to encapsulate these requirements in a container and/or self-contained build.
+For the latter one, I also needed to add an alias so the AcsiiDoctor plugin would find the mermaid executable (alias mermaid=mmdc). +
+For an CI build, I'd recommend to encapsulate these requirements in a container and/or self-contained build.
